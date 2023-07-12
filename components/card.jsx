@@ -22,10 +22,6 @@ const Card = () => {
 
 const styles = StyleSheet.create({
     container: {
-        //centrado en la pagina
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
     },
     cardContent: {
     },
@@ -52,6 +48,7 @@ const styles = StyleSheet.create({
     textCard: {
         fontSize: 20,
         color: '#fff',
+        fontWeight: 'bold',
     },
     });
 
